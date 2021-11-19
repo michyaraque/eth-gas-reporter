@@ -11,6 +11,7 @@ module.exports = {
     reporter: "eth-gas-reporter",
     reporterOptions: {
       currency: "chf",
+      symbol: "bnb",
       gasPrice: 21,
       onlyCalledMethods: false,
       noColors: true,
